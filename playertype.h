@@ -5,7 +5,8 @@ enum PlayerType{
     NEUTRAL,
     BLACK,
     WHITE,
-    NONE
+    NONE,
+    ORIGO
 };
 
 #endif // PLAYERTYPE_H

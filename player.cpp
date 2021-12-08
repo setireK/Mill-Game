@@ -8,6 +8,8 @@ Player::Player(PlayerType playerType)
     }
     _type = playerType;
     _remainingTokens = 9;
+    _takenTokens = 0;
+    _tokensOnField = 0;
 }
 
 void Player::tokenPlaced(){
